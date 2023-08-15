@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+    </nav>
+    <main>
+      <h1>Home page</h1>
+      <hr />
+
+      <div class="box-jump-content-cms">
+        <div class="box-how-to-step">
+          <div class="list-how-to-step">
+            <div
+              class="one-how-to-step"
+              data-target="#id_1"
+              data-img="https://www.techsmith.com/blog/wp-content/uploads/2019/06/YouTube-Thumbnail-Sizes.png"
+            >
+              1
+            </div>
+            <span class="space-how-to-step">&rArr;</span>
+            <div
+              class="one-how-to-step"
+              data-target="#id_2"
+              data-img="https://www.techsmith.com/blog/wp-content/uploads/2019/06/YouTube-Thumbnail-Sizes.png"
+            >
+              2
+            </div>
+            <span class="space-how-to-step">&rArr;</span>
+            <div
+              class="one-how-to-step"
+              data-target="#id_3"
+              data-img="https://www.techsmith.com/blog/wp-content/uploads/2019/06/YouTube-Thumbnail-Sizes.png"
+            >
+              3
+            </div>
+            <span class="space-how-to-step">&rArr;</span>
+            <div
+              class="one-how-to-step"
+              data-target="#id_4"
+              data-img="https://www.techsmith.com/blog/wp-content/uploads/2019/06/YouTube-Thumbnail-Sizes.png"
+            >
+              4
+            </div>
+            <span class="space-how-to-step">&rArr;</span>
+            <div
+              class="one-how-to-step"
+              data-target="#id_5"
+              data-img="https://www.techsmith.com/blog/wp-content/uploads/2019/06/YouTube-Thumbnail-Sizes.png"
+            >
+              5
+            </div>
+          </div>
+        </div>
+
+        <div class="box-content-step">
+          <div id="id_1" class="one-content-step">id_1</div>
+          <div id="id_2" class="one-content-step">id_2</div>
+          <div id="id_3" class="one-content-step">id_3</div>
+          <div id="id_4" class="one-content-step">id_4</div>
+          <div id="id_5" class="one-content-step">id_5</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
